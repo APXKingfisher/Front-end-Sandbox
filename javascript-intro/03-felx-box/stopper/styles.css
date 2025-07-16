@@ -1,0 +1,111 @@
+*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #0f7437;
+}
+#partTimerDiv {
+    text-align: left;
+    margin-left: 150px;  /* jobbról rendez kppontak 0px ..Opcionális: ad egy kis margót a bal oldalon */
+    background-color: #0e8a77;
+    width: 10%;
+    min-width: 500px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 75%;
+    left: 50%;
+    padding: 10px 10px 50px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 24px -4px rgba(255,255,255,0.69);
+    -webkit-box-shadow: 2px 2px 24px -4px rgba(255,255,255,0.69);
+    font-style: italic;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+#partTimerInput{
+    width: 50%;
+    height: 100%;
+    position: relative;
+    background-color: #0e8a77;
+    color: #ffffff;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container {
+    background-color: #331f1f;
+    width: 35%;
+    min-width: 500px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    padding: 20px 0;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 24px -4px rgba(255,255,255,0.69);
+    -webkit-box-shadow: 2px 2px 24px -4px rgba(255,255,255,0.69);
+    -moz-box-shadow: 2px 2px 24px -4px rgba(255,255,255,0.69);
+}
+
+.timerDisplay {
+    position: relative;
+    width: 92%;
+    background: #100101;
+    left: 4%;
+    padding: 40px 0;
+    font-family: sans-serif;
+    color: #c5af1e;
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(2, 39, 22, 0.25);
+}
+
+.buttons {
+    width: 90%;
+    margin: 60px auto 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttons button {
+    width: 150px;
+    height: 60px;
+    background-color: #205e94;
+    color: #ffffff;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    margin: 0px 5px;
+    box-shadow: 2px 2px 24px 7px rgba(117,111,111,0.69);
+    -webkit-box-shadow: 2px 2px 24px 7px rgba(117,111,111,0.69);
+    -moz-box-shadow: 2px 2px 24px 7px rgba(117,111,111,0.69);
+}
+
+#startTimer {
+    background-color: #308e39;
+}
+
+#resetTimer {
+    background-color: #831818;
+}
+#pauseTimer {
+    background-color: #205e94;
+}
+#partTimer {
+    background-color: #fcba03;
+}

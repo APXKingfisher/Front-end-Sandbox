@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="snake.css">
+    <link rel = "stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    <script defer src="game.js"></script>
+</head>
+<body>
+<div class="gradient-background">
+    <div class="grid-overlay"></div>
+    <div class="noise-overlay"></div>
+    <div class="particles-container" id="particles-container"></div>
+</div>
+
+<div class="main-container">
+    <div class="buttons">
+        <div class=main-buttons>
+            <button id="main-button">NEON SNAKE!</button>
+        </div>
+        <nav class="sub-buttons">
+            <button id="start">START</button>
+            <button id="stop">PAUSE</button>
+            <button id="reset">RESET</button>
+            <button id="leave">LEAVE</button>
+            <button id="help">HELP</button>
+            <button id="score" class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        SCORE
+                    </div>
+                    <div class="flip-card-back">
+                        <span id="score-value">0</span>
+                    </div>
+                </div>
+            </button>
+        </nav>
+    </div>
+    <div class = "canvas">
+        <canvas height="500" id="canvas" width="500"></canvas>
+    </div>
+</div>
+</body>
+</html>
