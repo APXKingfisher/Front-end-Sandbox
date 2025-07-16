@@ -9,7 +9,7 @@
         <version>0.0.2-SNAPSHOT</version>
     </parent>
 
-    <artifactId>01-backgounds</artifactId>
+    <artifactId>01-backgrounds</artifactId>
 
     <properties>
         <maven.compiler.source>23</maven.compiler.source>

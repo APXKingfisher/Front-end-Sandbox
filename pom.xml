@@ -19,7 +19,7 @@
 
     <modules>
         <module>snake-server</module>
-        <module>01-backgounds</module>
+        <module>01-backgrounds</module>
         <module>02-animations</module>
         <module>03-flexbox</module>
         <module>04-grid</module>

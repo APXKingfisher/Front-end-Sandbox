@@ -6,8 +6,8 @@
 
 }
 .flip-card {
-    /*!*perspective: 1000px;*!
-    background-color: transparent;*/
+    perspective: 1000px;
+    background-color: transparent;
 }
 
 .flip-card-inner {
